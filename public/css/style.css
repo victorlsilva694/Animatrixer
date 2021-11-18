@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    border: none;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #212529;
+}
+body{
+    background-color: #212529;
+}
+.img-brand{
+    width: 50px;
+    height: 50px;
+}
+.wallpapper-main{
+    width: 100%;
+    height: 80vh;
+}
+.image-wpp{
+    width: 100%;
+    overflow: hidden;
+    height: 80vh;
+}
+#slick-slide{
+    height: 300px;
+    top: 5vh;
+    width: 80%;
+    position: relative;
+    left: 10%;
+}
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    border: 1px solid rgb(38, 38, 38);
+    height: 350px;
+}
+.movie-box {
+    height: 350px;
+    width: 100%;
+    display: block;
+}
+.header-animes{
+    width: 100%;
+    height: 200px;
+}
+.title-animes{
+    font-family: 'Open Sans';
+    color: white;
+    font-weight: bold;
+    font-size: max(2.5vw, 15px);
+    position: relative;
+    top: 8vh;
+    text-align: center;
+}
+.Sub-title-animes{
+    font-family: 'Open Sans';
+    color: white;
+    font-weight: 500;
+    font-size: max(2vw, 15px);
+    position: relative;
+    top: 8vh;
+    text-align: center;
+}
+#information-section{
+    position: relative;
+    top: 20vh;
+    width: 100%;
+    height: 350px;
+}
+#footer-animatrix{
+    position: relative;
+    top: 30vh;
+    width: 100%;
+    height: 300px;
+}
+#finally-imageText{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: 15vh;
+}
+#finally-imageText h1{
+    font-family: 'Open Sans';
+    color: white;
+    font-weight: 500;
+    font-size: max(2.5vw, 15px);
+    top: 5vh;
+    position: relative;
+    text-align: center;
+}
+.title-section{
+    font-family: 'Open Sans';
+    color: white;
+    font-weight: 500;
+    font-size: max(2vw, 15px);
+    position: relative;
+    text-align: center;
+}

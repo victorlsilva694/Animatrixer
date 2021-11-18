@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Monda:wght@700&family=Open+Sans&display=swap');
+*{
+    border: none;
+    box-sizing: border-box;
+    margin: 0;
+    background-color: #212529;
+}
+body{
+    background-color: #212529;
+}
+.chat{
+    height: 200px;
+    width: 100%;
+}
+.options{
+    width: 95%;
+    height: 50px;
+}
+.write-text{
+    position: relative;
+    top: 4vh;
+    width: 95%;
+    height: 100px;
+}
+.user{
+    width: 20%;
+    color: white;
+    position: relative;
+    top: 5vh;
+    left: 0;
+}
+.users-post{
+    position: absolute;
+}
